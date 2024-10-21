@@ -1,0 +1,71 @@
+#include<iostream>
+#include<string>  // Include string for handling text input
+
+using namespace std;
+
+int main() {
+    string firstName, lastName, streetAddress, city;
+    int zipCode;
+
+    cout << "Enter your First Name: ";
+    getline(cin, firstName);  // Using getline to allow spaces in input
+
+    cout << "Enter your Last Name: ";
+    getline(cin, lastName);
+
+    cout << "Enter your Street Address: ";
+    getline(cin, streetAddress);
+
+    cout << "Enter your City: ";
+    getline(cin, city);
+
+    cout << "Enter your Zip Code: ";
+    cin >> zipCode;
+
+cout << "\n--- User Information ---\n";
+    cout << "First Name: " << firstName << endl;
+    cout << "Last Name: " << lastName << endl;
+    cout << "Street Address: " << streetAddress << endl;
+    cout << "City: " << city << endl;
+    cout << "Zip Code: " << zipCode << endl;
+
+    return 0;
+}
+
+
+
+
+
+#include<iostream> // Include iostream for input-output operations
+
+using namespace std;
+
+int main()  // Correct the function declaration, it's int main()
+{
+    cout << "Welcome to this C++ Program" << endl;
+    cout << "I have corrected all errors for this program." << endl;  // Added proper string handling with quotes
+
+    return 0;  // Ensure the main function returns an int
+}
+
+
+
+
+
+
+#include<iostream> // Include iostream for input-output operations
+
+using namespace std;
+
+int main()  // Correct the function declaration
+{
+    double myMoney = 1000.50;  // Declare and initialize the variable
+
+    cout << "Please be sure to correct all syntax errors in this program" << endl;
+    cout << "I have corrected all errors for this program." << endl;
+    cout << "The total amount of money available is = " << myMoney << endl;  // Print the value of myMoney
+
+    cin.get();
+
+    return 0;  // Ensure the main function returns an int
+}
